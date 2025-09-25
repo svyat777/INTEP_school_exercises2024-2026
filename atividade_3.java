@@ -1,12 +1,6 @@
-
-import java.util.Scanner;
-
 public class atividade_3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("enter numer: ");
-        double user_number = sc.nextDouble(); 
+        int user_number =  6;
         if(user_number < 10 && user_number == 10){
             System.out.println("this book is cheap");
         }else{
@@ -16,3 +10,4 @@ public class atividade_3 {
         
     }
 }
+
