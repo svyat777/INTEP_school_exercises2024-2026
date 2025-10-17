@@ -5,7 +5,6 @@ public class atividade_13dot1 {
         int result;
         System.out.print("enter first number: ");
         int user_first_number = input.nextInt(); 
-        
         System.out.print("enter operator(-,/,*,+): ");
         char user_operator = input.next().charAt(0);
  
@@ -14,18 +13,18 @@ public class atividade_13dot1 {
 
         if(user_operator == '+'){
             result = user_first_number + user_second_number;
-            System.out.print("result is: " + result);
+            System.out.println("result is: " + result);
         }else if(user_operator == '-'){
             result = user_first_number - user_second_number;
-            System.out.print("result is: " + result);
+            System.out.println("result is: " + result);
         }else if(user_operator == '/'){
             result = user_first_number / user_second_number;
-            System.out.print("result is: " + result);
+            System.out.println("result is: " + result);
         }else if(user_operator == '*'){
             result = user_first_number * user_second_number;
-            System.out.print("result is: " + result);
+            System.out.println("result is: " + result);
         }else{
-            System.out.print("error: invalid operator");
+            System.out.println("error: invalid operator");
         }
 
     }
